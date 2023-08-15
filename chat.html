@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Chat YURI - Kokoa Clone </title>
+</head>
+<body id="chat-screen">
+    <div class="status-bar">
+        <div class="status-bar_column">
+            <span>No service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar_column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar_column">
+            <span>110%</span>
+            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header_column">
+            <a href="chats.html">
+                <i class="fas fa-angle-left fa-2x"></i>
+            </a>
+        </div>
+        <div class="alt-header_column">
+            <h1 class="alt-header_title">YURI</h1>
+        </div>
+        <div class="alt-header_column">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-bars fa-lg"></i></span>
+        </div>
+    </header>
+
+    <main class="main-screen main-chat">
+        <div class="chat_timestamp">
+            Friday, May 5, 2023
+        </div>
+        <div class="message-row">
+            <img src="./유리.jpg">
+            <div class="message-row_content" id="message-left">
+                <span class="message_author">Yuri</span>
+                <div class="message_info">
+                    <span class="message_bubble">짱구야 나랑 소꿉놀이 하자!!</span>
+                    <span class="message_time">16:27</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row-own">
+            <div class="message-row_content" id="message-right">
+                <div class="message_info">
+                    <span class="message_bubble">나 액션가면 봐야해</span>
+                    <span class="message_time">16:27</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <form class="reply">
+        <div class="reply_column">
+            <i class="far fa-plus-square fa-lg"></i>
+        </div>
+        <div class="reply_column">
+            <input type="text" placeholder="Write a message..."/>
+            <i class="far fa-smile fa-lg"></i>
+            <button>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+
+    <div id="no-mobile">
+        <span>You screen is too big :&#40;</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>
